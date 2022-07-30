@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ToolkitCore.ToolkitCoreSettings">
+		<channel_username>solar_cerberus</channel_username>
+		<bot_username>solar_bot_</bot_username>
+		<oauth_token>oauth:7ygl5nqsxuyi0pbz6urkq2lxz39mwa</oauth_token>
+	</ModSettings>
+</SettingsBlock>

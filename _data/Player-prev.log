@@ -1,0 +1,143 @@
+Mono path[0] = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Managed'
+Mono config path = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.30f1 (e8c891080a1f)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   30.0.14.7111
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.095 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.709300 ms
+RimWorld 1.3.3389 rev40
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52B950080.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52B0D1060.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52BA33890.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52AC53AD0.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52B5E9010.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52B669040.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52A74A660.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52A76E890.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52BC0AD30.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52BCCE040.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52BD27DC0.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52BDA7020.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52B6B7DB0.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52BDF79D0.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52BF63050.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C52C3694B0.dll
+ToolkitUtils Installed
+ToolkitUtils Active
+<color=#6441A4>[Toolkit]</color> trying to load vars after def database loaded
+<color="#FF6B00">WARN ToolkitUtils :: Successfully lanced Twitch Toolkit's ticker.
+A message from RimWorld about discarding an unnamed def can be safely ignored.
+An exception about aborting a thread can be safely ignored.</color>
+Tried to discard UnnamedDef-1 whose state is -1. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000002C5404D2AB0.dll
+ThreadInterruptedException
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_thread_self_abort()
+  at TwitchToolkit.Ticker.Register () [0x000a9] in <edba5b8022834d4698df2fad203695a7>:0 
+  at System.Threading.ThreadHelper.ThreadStart_Context (System.Object state) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00071] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Threading.ExecutionContext.Run (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state) [0x0002b] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Threading.ThreadHelper.ThreadStart () [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.<>c:<RegisterUECatcher>b__0_0(Object, UnhandledExceptionEventArgs)
+System.Object:__icall_wrapper_mono_thread_self_abort()
+TwitchToolkit.Ticker:Register()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+ 
+(Filename: <edba5b8022834d4698df2fad203695a7> Line: 0)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 12332.
+Total: 47.204000 ms (FindLiveObjects: 0.600200 ms CreateObjectMapping: 0.340800 ms MarkObjects: 46.194800 ms  DeleteObjects: 0.068000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 12332.
+Total: 46.571600 ms (FindLiveObjects: 0.584600 ms CreateObjectMapping: 0.295800 ms MarkObjects: 45.667000 ms  DeleteObjects: 0.024000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 12332.
+Total: 44.888900 ms (FindLiveObjects: 0.296900 ms CreateObjectMapping: 0.310500 ms MarkObjects: 44.259600 ms  DeleteObjects: 0.021700 ms)
+
+<color="#ff6b00">ToolkitUtils :: ToolkitCore isn't fully set up. Your viewer list won't be refreshed.</color> 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 13029.
+Total: 61.197600 ms (FindLiveObjects: 0.293400 ms CreateObjectMapping: 0.309400 ms MarkObjects: 60.581600 ms  DeleteObjects: 0.012900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.155600 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 13402.
+Total: 64.374100 ms (FindLiveObjects: 0.304700 ms CreateObjectMapping: 0.246400 ms MarkObjects: 63.794200 ms  DeleteObjects: 0.028600 ms)
+
+Initializing new game with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - hodlhodl.toolkitcore
+  - hodlhodl.twitchtoolkit
+  - sirrandoo.tku
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 17671.
+Total: 93.708200 ms (FindLiveObjects: 0.375600 ms CreateObjectMapping: 0.322000 ms MarkObjects: 92.990700 ms  DeleteObjects: 0.019500 ms)
+
+Exception filling window for RimWorld.Dialog_ModSettings: System.Exception: Twitch username does not appear to be valid. 
+  at TwitchLib.Client.Models.ConnectionCredentials..ctor (System.String twitchUsername, System.String twitchOAuth, System.String twitchWebsocketURI, System.Boolean disableUsernameCheck) [0x0002c] in <c9d93d43045b41948f1fb722c1568dc0>:0 
+  at ToolkitCore.TwitchWrapper.StartAsync () [0x00000] in <cce5a9f399864cdc8194aac71a727132>:0 
+  at ToolkitCore.ToolkitCoreSettings.DoWindowContents (UnityEngine.Rect inRect) [0x003b2] in <cce5a9f399864cdc8194aac71a727132>:0 
+  at ToolkitCore.ToolkitCore.DoSettingsWindowContents (UnityEngine.Rect inRect) [0x00000] in <cce5a9f399864cdc8194aac71a727132>:0 
+  at RimWorld.Dialog_ModSettings.DoWindowContents (UnityEngine.Rect inRect) [0x001c2] in <81af9f8a18324e17b286924a43555a7c>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001d3] in <81af9f8a18324e17b286924a43555a7c>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Exception filling window for RimWorld.Dialog_ModSettings: System.Exception: Twitch username does not appear to be valid. 
+  at TwitchLib.Client.Models.ConnectionCredentials..ctor (System.String twitchUsername, System.String twitchOAuth, System.String twitchWebsocketURI, System.Boolean disableUsernameCheck) [0x0002c] in <c9d93d43045b41948f1fb722c1568dc0>:0 
+  at ToolkitCore.TwitchWrapper.StartAsync () [0x00000] in <cce5a9f399864cdc8194aac71a727132>:0 
+  at ToolkitCore.ToolkitCoreSettings.DoWindowContents (UnityEngine.Rect inRect) [0x003b2] in <cce5a9f399864cdc8194aac71a727132>:0 
+  at ToolkitCore.ToolkitCore.DoSettingsWindowContents (UnityEngine.Rect inRect) [0x00000] in <cce5a9f399864cdc8194aac71a727132>:0 
+  at RimWorld.Dialog_ModSettings.DoWindowContents (UnityEngine.Rect inRect) [0x001c2] in <81af9f8a18324e17b286924a43555a7c>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001d3] in <81af9f8a18324e17b286924a43555a7c>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+INFO ToolkitUtils :: {"_links":{},"chatter_count":0,"chatters":{"broadcaster":[],"vips":[],"moderators":[],"staff":[],"admins":[],"global_mods":[],"viewers":[]}}
+Incorrect login detected. :tmi.twitch.tv NOTICE * :Login authentication failed 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#6441A4>[Toolkit]</color> exposing vote weights
+Client has disconnected 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+<color=#6441A4>[Toolkit]</color> exposing vote weights
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 6c8c -> priority: 1 
+  Thread -> id: 14b4 -> priority: 1 
+  Thread -> id: 56dc -> priority: 1 
+  Thread -> id: 5610 -> priority: 1 
+  Thread -> id: 29e8 -> priority: 1 
+  Thread -> id: 506c -> priority: 1 
+  Thread -> id: 5a6c -> priority: 1 
+  Thread -> id: 35f4 -> priority: 1 
